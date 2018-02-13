@@ -65,7 +65,7 @@ score = max_val(matrix)[0]
 print("The score of the optimal alignment is ",score)
 
 #Traceback. Choosing elements from Seq1, Seq2 or Seq1 and Seq2
-#depenging on the arrow in the pointers matrix
+#depending on the arrow in the pointers matrix
 i = max_val(matrix)[1]
 j = max_val(matrix)[2]
 
