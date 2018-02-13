@@ -57,7 +57,7 @@ score = matrix[-1][-1]
 print("The score of the optimal alignment is ",score)
 
 #Traceback. Choosing elements from Seq1, Seq2 or Seq1 and Seq2
-#depenging on the arrow in the pointers matrix
+#depending on the arrow in the pointers matrix
 i = len(sequence_1)-1
 j = len(sequence_2)-1
 alignment_1 = ""
