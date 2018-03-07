@@ -2,18 +2,18 @@
 Common algorithms for two sequences alignments
 
 
-    Needleman-Wunsch algorithm
+## Needleman-Wunsch algorithm
 
-Finds the optimal global alignment between two sequences using dynamic programmig. Provides an exact solution for the chosen score.
+Finds the **optimal global alignment** between two sequences using dynamic programmig. Provides an exact solution for the chosen score.
 
 Input: two sequences and a scoring system
 
 Output: the optimal global alignment, its score and the scoring and pointers matrices.
 
 
-    Smith-Waterman algorithm
+## Smith-Waterman algorithm
 
-Finds the optimal local alignment between two sequences using dynamic programmig. Provides an exact solution for the chosen score.
+Finds the **optimal local alignment** between two sequences using dynamic programmig. Provides an exact solution for the chosen score.
 
 Input: two sequences and a scoring system
 
