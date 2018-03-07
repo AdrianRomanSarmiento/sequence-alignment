@@ -1,3 +1,6 @@
+#! python3
+# smith-waterman.py - Finds the optimal local alignment between two sequences
+
 #Sequences
 sequence_1 = "GGTTGACTA"
 sequence_2 = "TGTTACGG"
@@ -86,7 +89,7 @@ while pointers[i][j] != 0:
         alignment_2 = "-" + alignment_2
         i = i-1
 
-#Function to print the marices
+#Function to print the matrices
 def print_matrix(matrix):
     for s in matrix:
         print(*s)
