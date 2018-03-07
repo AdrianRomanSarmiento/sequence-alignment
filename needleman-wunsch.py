@@ -1,3 +1,6 @@
+#! python3
+# needleman-wunsch.py - Finds the optimal global alignment between two sequences
+
 #Sequences
 sequence_1 = "ATCGT"
 sequence_2 = "TGGTG"
@@ -77,7 +80,7 @@ while (i != -1) or (j != -1):
         alignment_2 = "-" + alignment_2
         i = i-1
 
-#Function to print the marices
+#Function to print the matrices
 def print_matrix(matrix):
     for s in matrix:
         print(*s)
